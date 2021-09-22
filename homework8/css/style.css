@@ -1,0 +1,500 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.main-screen {
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+
+header {
+    padding: 60px 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #CDCDCD;
+    margin-left: 35px;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 4px 0;
+}
+
+nav a:hover {
+    color: #FAFAFA;
+    border-bottom: 3px #F1CDB3 solid;
+}
+
+.logo {
+    font-family: Georgia;
+    font-size: 32px;
+    text-decoration: none;
+    color: #F1CDB3;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info {
+    max-width: 460px;
+    align-self: center;
+}
+
+h1 {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 57px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.header-info p {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    margin-bottom: 40px;
+}
+
+.header-info button {
+    width: 207px;
+    height: 52px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    /* padding: 15px 45px; */
+}
+
+.header-info button a {
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+button:hover, .arrow:hover {
+    background-color: #FDDCC4;
+    border: none;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 600px;
+}
+
+.second-section_img, .second-section_text {
+    max-width: 430px;
+}
+
+h2 {
+    font-family: Georgia;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.second-section_text h2 {
+    margin-bottom: 30px;
+}
+
+.second-section_text p {
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    margin-bottom: 30px;
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding-top: 80px;
+    font-family: Georgia;
+}
+
+.catalog h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-catalog {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.arrow {
+    width: 52px;
+    height: 52px;
+    border: 2px #F1CDB3 solid;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.arrow img {
+    color: #292929;
+    padding: 22px 18px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.card span {
+    margin: 30px 0;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.detail {
+    width: 187px;
+    height: 52px;
+    border: 2px #F1CDB3 solid;
+    border-radius: 100px;
+    margin: 20px 0 30px;
+    background-color: #FAFAFA;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    font-family: Georgia;
+}
+
+.get {
+    margin: 0 0 100px;
+    width: 261px;
+    height: 52px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+}
+
+.get>a {
+    text-decoration: none;
+    color: #292929;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    font-family: Georgia;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 43px;
+}
+
+.help h2 {
+    display: inline-block;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.help-flex {
+    width: 1026px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.points {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+.points>img {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+    margin-bottom: 30px;
+}
+
+.points span {
+    text-align: center;
+}
+
+.donation {
+    background-color: #F6F6F6;
+}
+
+.donation-flex {
+    width: 915px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 100px;
+}
+
+.donation-text {
+    width: 40%;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.donation-text span {
+    font-family: Georgia;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.card-number {
+    width: 349px;
+    padding: 10px 15px;
+    background-color: #F1CDB3;
+    border: none;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-number a {
+    font-family: Georgia;
+    text-decoration: none;
+    color: #545454;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+
+.donation-text p {
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+}
+
+footer {
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    font-family: Georgia;
+    padding-top: 40px;
+}
+
+footer h3 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45, 5px;
+    letter-spacing: 0.06em;
+    padding-top: 16px;
+    margin: 0 0 33px;
+}
+
+footer p {
+    min-height: 46px;
+    color: #F1CDB3;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    margin-bottom: 27px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F1CDB3;
+}
+
+footer .mail {
+    background: url(../img/mail.svg) no-repeat left center;
+}
+
+footer .tel {
+    background: url(../img/phone.svg) no-repeat left center;
+}
+
+footer .adress {
+    background: url(../img/pin.svg) no-repeat left center;
+    padding-left: 42px;
+}
+
+footer .flex-parent>div {
+    width: 300px;
+    align-items: flex-start;
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 95%;
+    }
+    header {
+        padding: 30px 0 60px;
+    }
+    .header-info {
+        padding-bottom: 30px;
+    }
+    .header-image img {
+        width: 100%;
+    }
+    .header-flex {
+        align-items: flex-end;
+    }
+    .second-section {
+        justify-content: space-between;
+    }
+    .second-section_img, .second-section_text {
+        width: 50%;
+    }
+    .flex-catalog {
+        width: 95%;
+    }
+    .last {
+        display: none;
+    }
+    .help-flex {
+        width: 100%;
+    }
+    .donation-flex {
+        width: 95%;
+        align-items: center;
+    }
+    .donation-flex>img {
+        width: 50%;
+        height: 50%;
+    }
+    .donation-text {
+        width: 48%;
+    }
+    footer .flex-parent {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 320px) {
+    .mobile-menu {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .header-flex {
+        flex-direction: column;
+    }
+    .second-section {
+        padding: 30px 0;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+    .second-section_img, .second-section_text {
+        width: 100%;
+    }
+    .catalog {
+        padding-top: 30px;
+    }
+    .flex-catalog {
+        padding: 30px 0;
+    }
+    .second {
+        display: none;
+    }
+    .card img {
+        width: 80%;
+        height: 80%;
+    }
+    .get {
+        margin-bottom: 30px;
+    }
+    .help {
+        padding: 30px 0;
+    }
+    .help h2 {
+        padding-bottom: 30px;
+    }
+    .points {
+        width: 30%;
+        padding-bottom: 20px;
+        /* у четвёртого поинта что-то с высотой */
+    }
+    .donation-flex {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+    .donation-flex>img, .donation-text {
+        width: 100%;
+    }
+    .card-number {
+        width: 95%;
+        padding: 10px 0;
+        justify-content: space-evenly;
+    }
+    .card-number>a {
+        font-size: 16px;
+    }
+    footer{
+        padding: 0;
+    }
+}
